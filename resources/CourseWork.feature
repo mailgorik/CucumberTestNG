@@ -35,7 +35,7 @@ Feature: Desktop Checkout for Guest User
       | cardNumber   | 5409530000000077 |
       | Expiry Year  | 2023             |
       | Expiry Month | 02               |
-      | CVV          | 123              |
+      | CVV          | 124              |
     And I click Submit button
     And I am redirected to payment provider page
     Then I receive error notification
