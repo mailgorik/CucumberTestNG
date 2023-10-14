@@ -18,7 +18,6 @@ import java.time.Duration;
 
 public class CourseWorkSteps extends BaseTest {
 
-
     @Test
     @Given("I am an anonymous customer with clear cookies")
     public void i_am_an_anonymous_customer_with_clear_cookies() {

@@ -3,6 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/rudi/IdeaProjects/CucumberTestNG">
         <classes>
+            <!-- запуск через Runner не працює, не вдалось зрозуміти причину, але схоже на некоректну ініціяцію драйвера
+             при наслідуванні BaseTest -->
 <!--            <class name="Runners.Run"></class>-->
             <class name="StepDefinitions.CourseWorkSteps"></class>
         </classes>

@@ -16,7 +16,6 @@ public class BaseTest {
     @BeforeClass
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudi\\IdeaProjects\\CucumberTestNG\\src\\main\\resources\\drivers\\chromedriver.exe");
-//        System.setProperty("webdriver.http.factory", "jdk-http-client");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);

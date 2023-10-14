@@ -7,7 +7,6 @@ import io.cucumber.testng.CucumberOptions;
         features = {
                 "C:\\Users\\rudi\\IdeaProjects\\CucumberTestNG\\resources\\CourseWork.feature"},
         glue = {"StepDefinitions"}
-
-)
+        )
 public class Run extends AbstractTestNGCucumberTests {
 }
